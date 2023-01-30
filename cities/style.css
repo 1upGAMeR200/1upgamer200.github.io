@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1a1a1a;
+  background-image: url(../src/2022-04-04_02.57.05.png);
+  background-size: 100%;
+  font-family: roboto, arial;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  background-color: #141616;
+}
+
+.header .hImg {
+  margin-right: 1rem;
+  size: rem;
+  width: 4rem;
+  height: 7rem;
+}
+
+.header .hTitle {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #d0d0d0;
+}
+
+.header .hPages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin: 0 2rem;
+  font-family: roboto, arial;
+  font-size: 3rem;
+}
+
+.header .hPages .hPButton {
+  background-color: #1a1a1a;
+  text-decoration: none;
+}
+
+.header .hPages .hPButton :hover {
+  background-color: #239e56;
+}
+
+.header .hPages .hPButton .hPSubText {
+  text-align: center;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  padding: 1.7rem 1rem;
+  color: #d0d0d0;
+  cursor: default;
+}
+
+.mainIcon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #1a1a1a;
+  background-image: url(../src/2022-04-04_02.55.17.png);
+  background-size: 100%;
+  font-family: roboto, arial;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  background-color: #141616;
+}
+
+.header .hImg {
+  margin-right: 1rem;
+  size: rem;
+  width: 4rem;
+  height: 7rem;
+}
+
+.header .hTitle {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #d0d0d0;
+}
+
+.header .hPages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin: 0 2rem;
+  font-family: roboto, arial;
+  font-size: 3rem;
+}
+
+.header .hPages .hPButton {
+  background-color: #1a1a1a;
+  text-decoration: none;
+}
+
+.header .hPages .hPButton :hover {
+  background-color: #239e56;
+}
+
+.header .hPages .hPButton .hPSubText {
+  text-align: center;
+  -webkit-transition: 400ms;
+  transition: 400ms;
+  padding: 1.7rem 1rem;
+  color: #d0d0d0;
+  cursor: default;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  background-color: rgba(26, 26, 26, 0.85);
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 1rem;
+  -webkit-box-shadow: 0 10px 2px rgba(20, 20, 20, 0.5);
+          box-shadow: 0 10px 2px rgba(20, 20, 20, 0.5);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+}
+
+.wrapper .mTitle {
+  text-align: center;
+  font-size: 4rem;
+  color: #d0d0d0;
+}
+
+.wrapper .map {
+  margin: 0.5rem 0;
+  height: 60rem;
+  border: none;
+  border-radius: 1rem;
+  border-radius: 0, 0, 1rem 1rem #141616;
+}
+
+.wrapper .mInfo {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #d0d0d0;
+}
+/*# sourceMappingURL=style.css.map */
